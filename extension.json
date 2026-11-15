@@ -1,0 +1,26 @@
+{
+  "id": "neopixel",
+  "version": "1.0.2",
+  "name": {
+    "zh-hant": "LED 燈條",
+    "zh-hans": "LED 灯条",
+    "en": "LED strip",
+    "ja": "LED テープ"
+  },
+  "description": {
+    "zh-hant": "WS2812（NeoPixel）全彩 LED 燈條，每顆燈可以設定不同顏色。",
+    "zh-hans": "WS2812（NeoPixel）全彩 LED 灯条，每颗灯可以设置不同颜色。",
+    "en": "WS2812 (NeoPixel) RGB LED strip. Set each LED to its own color.",
+    "ja": "WS2812（NeoPixel）フルカラー LED テープ。LED ごとに色を設定できます。"
+  },
+  "author": "O Bricks",
+  "category": "display",
+  "app": ">=1.0.0",
+  "codeTypes": [
+    "micropython"
+  ],
+  "boards": [
+    "rp2040",
+    "rp2350"
+  ]
+}

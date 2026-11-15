@@ -1,0 +1,12 @@
+{
+  "NEOPIXEL_SETUP": "LED テープ ピン %1 LED %2 個",
+  "NEOPIXEL_SET": "%1 番目の LED を %2 にする",
+  "NEOPIXEL_FILL": "すべての LED を %1 にする",
+  "NEOPIXEL_SHOW": "LED テープを更新する",
+  "CAT_NEOPIXEL": "LED テープ",
+  "NEOPIXEL_RED": "赤",
+  "NEOPIXEL_GREEN": "緑",
+  "NEOPIXEL_BLUE": "青",
+  "NEOPIXEL_WHITE": "白",
+  "NEOPIXEL_OFF": "消す"
+}

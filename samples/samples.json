@@ -1,0 +1,9 @@
+[
+  {
+    "id": "neopixel-rainbow",
+    "file": "rainbow.obk",
+    "level": "basic",
+    "name": { "zh-hant": "紅綠藍輪流", "zh-hans": "红绿蓝轮流", "en": "Red, green, blue", "ja": "赤・緑・青を順番に" },
+    "desc": { "zh-hant": "整條燈紅、綠、藍輪流亮，各 1 秒。", "zh-hans": "整条灯红、绿、蓝轮流亮，各 1 秒。", "en": "The whole strip cycles red, green and blue, one second each.", "ja": "LED テープ全体が赤、緑、青の順に 1 秒ずつ光ります。" }
+  }
+]

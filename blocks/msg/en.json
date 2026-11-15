@@ -1,0 +1,12 @@
+{
+  "NEOPIXEL_SETUP": "LED strip on pin %1 with %2 LEDs",
+  "NEOPIXEL_SET": "set LED %1 to %2",
+  "NEOPIXEL_FILL": "set all LEDs to %1",
+  "NEOPIXEL_SHOW": "update the strip",
+  "CAT_NEOPIXEL": "LED strip",
+  "NEOPIXEL_RED": "red",
+  "NEOPIXEL_GREEN": "green",
+  "NEOPIXEL_BLUE": "blue",
+  "NEOPIXEL_WHITE": "white",
+  "NEOPIXEL_OFF": "off"
+}

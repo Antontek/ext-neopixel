@@ -1,0 +1,6 @@
+[
+  {"type": "neopixel_setup", "message0": "%{BKY_NEOPIXEL_SETUP}", "args0": [{"type": "field_number", "name": "PIN", "value": 16, "min": 0, "max": 40, "precision": 1}, {"type": "field_number", "name": "N", "value": 8, "min": 1, "max": 300, "precision": 1}], "previousStatement": null, "nextStatement": null, "colour": "#7CB518"},
+  {"type": "neopixel_set", "message0": "%{BKY_NEOPIXEL_SET}", "args0": [{"type": "input_value", "name": "I", "check": "Number"}, {"type": "field_dropdown", "name": "C", "options": [["%{BKY_NEOPIXEL_RED}", "(255, 0, 0)"], ["%{BKY_NEOPIXEL_GREEN}", "(0, 255, 0)"], ["%{BKY_NEOPIXEL_BLUE}", "(0, 0, 255)"], ["%{BKY_NEOPIXEL_WHITE}", "(255, 255, 255)"], ["%{BKY_NEOPIXEL_OFF}", "(0, 0, 0)"]]}], "inputsInline": true, "previousStatement": null, "nextStatement": null, "colour": "#7CB518"},
+  {"type": "neopixel_fill", "message0": "%{BKY_NEOPIXEL_FILL}", "args0": [{"type": "field_dropdown", "name": "C", "options": [["%{BKY_NEOPIXEL_GREEN}", "(0, 255, 0)"], ["%{BKY_NEOPIXEL_RED}", "(255, 0, 0)"], ["%{BKY_NEOPIXEL_BLUE}", "(0, 0, 255)"], ["%{BKY_NEOPIXEL_WHITE}", "(255, 255, 255)"], ["%{BKY_NEOPIXEL_OFF}", "(0, 0, 0)"]]}], "previousStatement": null, "nextStatement": null, "colour": "#7CB518"},
+  {"type": "neopixel_show", "message0": "%{BKY_NEOPIXEL_SHOW}", "previousStatement": null, "nextStatement": null, "colour": "#7CB518"}
+]

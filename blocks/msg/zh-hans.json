@@ -1,0 +1,12 @@
+{
+  "NEOPIXEL_SETUP": "LED 灯条 引脚 %1 共 %2 颗",
+  "NEOPIXEL_SET": "把第 %1 颗设成 %2",
+  "NEOPIXEL_FILL": "全部设成 %1",
+  "NEOPIXEL_SHOW": "更新灯条",
+  "CAT_NEOPIXEL": "LED 灯条",
+  "NEOPIXEL_RED": "红",
+  "NEOPIXEL_GREEN": "绿",
+  "NEOPIXEL_BLUE": "蓝",
+  "NEOPIXEL_WHITE": "白",
+  "NEOPIXEL_OFF": "关"
+}

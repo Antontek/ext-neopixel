@@ -1,0 +1,9 @@
+{
+  "neopixel_setup": {
+    "imports": ["from machine import Pin", "import neopixel"],
+    "code": "strip = neopixel.NeoPixel(Pin({PIN}), {N})"
+  },
+  "neopixel_set": { "code": "strip[{I}] = {C}" },
+  "neopixel_fill": { "code": "strip.fill({C})" },
+  "neopixel_show": { "code": "strip.write()" }
+}

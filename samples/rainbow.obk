@@ -1,0 +1,116 @@
+{
+  "format": "obricks",
+  "version": 1,
+  "workspace": {
+    "blocks": {
+      "languageVersion": 0,
+      "blocks": [
+        {
+          "type": "ob_start",
+          "x": 40,
+          "y": 40,
+          "next": {
+            "block": {
+              "type": "neopixel_setup",
+              "fields": {
+                "PIN": 16,
+                "N": 8
+              },
+              "next": {
+                "block": {
+                  "type": "ob_forever",
+                  "inputs": {
+                    "DO": {
+                      "block": {
+                        "type": "neopixel_fill",
+                        "fields": {
+                          "C": "(255, 0, 0)"
+                        },
+                        "next": {
+                          "block": {
+                            "type": "neopixel_show",
+                            "next": {
+                              "block": {
+                                "type": "ob_wait",
+                                "inputs": {
+                                  "S": {
+                                    "shadow": {
+                                      "type": "math_number",
+                                      "fields": {
+                                        "NUM": 1
+                                      }
+                                    }
+                                  }
+                                },
+                                "next": {
+                                  "block": {
+                                    "type": "neopixel_fill",
+                                    "fields": {
+                                      "C": "(0, 255, 0)"
+                                    },
+                                    "next": {
+                                      "block": {
+                                        "type": "neopixel_show",
+                                        "next": {
+                                          "block": {
+                                            "type": "ob_wait",
+                                            "inputs": {
+                                              "S": {
+                                                "shadow": {
+                                                  "type": "math_number",
+                                                  "fields": {
+                                                    "NUM": 1
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "next": {
+                                              "block": {
+                                                "type": "neopixel_fill",
+                                                "fields": {
+                                                  "C": "(0, 0, 255)"
+                                                },
+                                                "next": {
+                                                  "block": {
+                                                    "type": "neopixel_show",
+                                                    "next": {
+                                                      "block": {
+                                                        "type": "ob_wait",
+                                                        "inputs": {
+                                                          "S": {
+                                                            "shadow": {
+                                                              "type": "math_number",
+                                                              "fields": {
+                                                                "NUM": 1
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
